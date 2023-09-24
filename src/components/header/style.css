@@ -1,0 +1,21 @@
+.header {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 720px;
+  text-align: center;
+  width: 250px;
+}
+
+.header .nav-link {
+  display: flex;
+  flex-direction: row;
+  margin: 50px auto;
+  text-decoration: none;
+}
+
+.header .nav-link img {
+  margin: 0 10px;
+  width: min-content;
+}

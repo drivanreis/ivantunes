@@ -1,0 +1,24 @@
+/* Defina uma animação de rotação chamada "rotate" */
+
+@keyframes rotate {
+
+  from {
+    transform: rotate(0deg); /* Comece a rotação a partir de 0 graus */
+  }
+
+  to {
+    transform: rotate(360deg); /* Termine a rotação a 360 graus (uma volta completa) */
+  }
+}
+
+/* Aplique a animação à imagem com a classe "rotating-image" */
+.rotating-image {
+  animation: rotate 5s linear infinite;
+}
+
+.loading {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
